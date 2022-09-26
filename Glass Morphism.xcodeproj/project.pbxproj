@@ -14,6 +14,7 @@
 		15499CA828E19EDF00925C47 /* Glass_MorphismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15499CA728E19EDF00925C47 /* Glass_MorphismTests.swift */; };
 		15499CB228E19EDF00925C47 /* Glass_MorphismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15499CB128E19EDF00925C47 /* Glass_MorphismUITests.swift */; };
 		15499CB428E19EDF00925C47 /* Glass_MorphismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15499CB328E19EDF00925C47 /* Glass_MorphismUITestsLaunchTests.swift */; };
+		15499CC228E19F0F00925C47 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15499CC128E19F0F00925C47 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		15499CAD28E19EDF00925C47 /* Glass MorphismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glass MorphismUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15499CB128E19EDF00925C47 /* Glass_MorphismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass_MorphismUITests.swift; sourceTree = "<group>"; };
 		15499CB328E19EDF00925C47 /* Glass_MorphismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass_MorphismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15499CC128E19F0F00925C47 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				15499C9628E19EDD00925C47 /* Glass_MorphismApp.swift */,
 				15499C9828E19EDD00925C47 /* ContentView.swift */,
+				15499CC028E19F0100925C47 /* View */,
 				15499C9A28E19EDF00925C47 /* Assets.xcassets */,
 				15499C9C28E19EDF00925C47 /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				15499CB328E19EDF00925C47 /* Glass_MorphismUITestsLaunchTests.swift */,
 			);
 			path = "Glass MorphismUITests";
+			sourceTree = "<group>";
+		};
+		15499CC028E19F0100925C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15499CC128E19F0F00925C47 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15499C9928E19EDD00925C47 /* ContentView.swift in Sources */,
+				15499CC228E19F0F00925C47 /* Home.swift in Sources */,
 				15499C9728E19EDD00925C47 /* Glass_MorphismApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
